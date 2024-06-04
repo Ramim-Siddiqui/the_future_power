@@ -19,14 +19,14 @@ const Footer = () => {
 export default Footer
 
 const footerStyle = {
-  backgroundColor: "rgba(0, 0, 0, 0)",
+  backgroundColor: "white",
   color: 'black',
   textAlign: 'center',
   padding: '0px',
-  position: 'fixed',
+  position: 'relative',
   bottom: '0',
   width: '100%',
-  fontSize: '20px',
+  fontSize: '4vh',
   fontWeight: 'bold',
   fontFamily: 'Poppins',
 };
