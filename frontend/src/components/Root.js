@@ -1,25 +1,25 @@
-// import React, { useEffect, useRef } from 'react';
-// import welcomeaudio from '../assets/audio/welcome.wav';
+import React, { useEffect, useRef } from 'react';
+import welcomeaudio from '../assets/audio/welcome.wav';
 import image from '../assets/images/bg3.jpg';
 import { Col, Row } from 'react-bootstrap'; 
 
 const Root = () => {
-  // const audioRef = useRef(null);
+  const audioRef = useRef(null);
 
-  // useEffect(() => {
-  //   const audio = new Audio(welcomeaudio);
-  //   audioRef.current = audio;
+  useEffect(() => {
+    const audio = new Audio(welcomeaudio);
+    audioRef.current = audio;
 
-  //   audio.play()
-  //     .catch(error => {
-  //       console.error('Error playing audio:', error);
-  //     });
+    audio.play()
+      .catch(error => {
+        console.error('Error playing audio:', error);
+      });
 
-  //   return () => {
-  //     audio.pause();
-  //     audio.currentTime = 0;
-  //   };
-  // }, []);
+    return () => {
+      audio.pause();
+      audio.currentTime = 0;
+    };
+  }, []);
 
   const backgroundStyle = {
     backgroundImage: `url(${image})`,
