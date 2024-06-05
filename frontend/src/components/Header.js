@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
+import welcomeaudio from '../assets/audio/welcome.wav';
 
 const style = {
   textDecoration: "none",
@@ -23,9 +24,26 @@ const Header = () => {
   const handleMouseLeave = () => {
     setHoveredLink(null);
   };
+  useEffect(() => {
+      const audioPlayer = document.getElementById('audioPlayer');
+    
+      // Play the audio only if it's paused
+      if (audioPlayer.paused) {
+        audioPlayer.play();
+      }
+    
+      // Clean up by pausing the audio when the component unmounts
+      return () => {
+        audioPlayer.pause();
+      };
+    }, []);
 
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-white">
+      <audio id="audioPlayer" autoPlay>
+        <source src={welcomeaudio} type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       <Container fluid>
         <Navbar.Brand>
           <Link to="/">
