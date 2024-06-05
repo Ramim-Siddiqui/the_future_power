@@ -9,9 +9,7 @@ function App() {
   
     // Play the audio only if it's paused
     if (audioPlayer.paused) {
-      audioPlayer.play().catch(error => {
-        console.error('Error playing audio:', error);
-      });
+      audioPlayer.play();
     }
   
     // Clean up by pausing the audio when the component unmounts
@@ -19,7 +17,7 @@ function App() {
       audioPlayer.pause();
     };
   }, []);
-
+  
   return (
     <>
       <audio id="audioPlayer" autoPlay>
