@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Routing from "./components/Routing";
-
+import React, { useEffect, useRef } from 'react';
+import welcomeaudio from './assets/audio/welcome.wav';
 
 function App() {
   const audioRef = useRef(null);
