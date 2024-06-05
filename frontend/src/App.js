@@ -1,27 +1,31 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Routing from "./components/Routing";
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect} from 'react';
 import welcomeaudio from './assets/audio/welcome.wav';
 
 function App() {
-  const audioRef = useRef(null);
-
   useEffect(() => {
-    const audio = new Audio(welcomeaudio);
-    audioRef.current = audio;
-
-    audio.play()
-      .catch(error => {
+    const audioPlayer = document.getElementById('audioPlayer');
+  
+    // Play the audio only if it's paused
+    if (audioPlayer.paused) {
+      audioPlayer.play().catch(error => {
         console.error('Error playing audio:', error);
       });
-
+    }
+  
+    // Clean up by pausing the audio when the component unmounts
     return () => {
-      audio.pause();
-      audio.currentTime = 0;
+      audioPlayer.pause();
     };
   }, []);
+
   return (
     <>
+      <audio id="audioPlayer" autoPlay>
+        <source src={welcomeaudio} type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       <Routing />
     </>
   );
