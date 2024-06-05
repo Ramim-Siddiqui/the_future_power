@@ -1,23 +1,20 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect} from 'react';
 import welcomeaudio from '../assets/audio/welcome.wav';
 import image from '../assets/images/bg3.jpg';
 import { Col, Row } from 'react-bootstrap'; 
 
 const Root = () => {
-  const audioRef = useRef(null);
-
   useEffect(() => {
-    const audio = new Audio(welcomeaudio);
-    audioRef.current = audio;
-
-    audio.play()
-      .catch(error => {
-        console.error('Error playing audio:', error);
-      });
-
+    const audioPlayer = document.getElementById('audioPlayer');
+  
+    // Play the audio only if it's paused
+    if (audioPlayer.paused) {
+      audioPlayer.play();
+    }
+  
+    // Clean up by pausing the audio when the component unmounts
     return () => {
-      audio.pause();
-      audio.currentTime = 0;
+      audioPlayer.pause();
     };
   }, []);
 
@@ -33,6 +30,10 @@ const Root = () => {
 
   return (
     <div className="d-flex w-100 vh-100 justify-content-center align-items-center" style={backgroundStyle}>
+      <audio id="audioPlayer" autoPlay>
+        <source src={welcomeaudio} type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
       <Row>
         <Col xs={12} sm={12} md={12}>
           <p className="welcome-text">
