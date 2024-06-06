@@ -1,4 +1,4 @@
-import React, { useState , useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -8,7 +8,7 @@ import welcomeaudio from '../assets/audio/welcome.wav';
 const style = {
   textDecoration: "none",
   fontFamily: "Poppins",
-  background: `white`, 
+  background: `white`,
   WebkitBackgroundClip: 'text',
   color: 'black',
   fontSize: "3vh"
@@ -24,23 +24,41 @@ const Header = () => {
   const handleMouseLeave = () => {
     setHoveredLink(null);
   };
+
   useEffect(() => {
-      const audioPlayer = document.getElementById('audioPlayer');
-    
-      // Play the audio only if it's paused
-      if (audioPlayer.paused) {
-        audioPlayer.play();
-      }
-    
-      // Clean up by pausing the audio when the component unmounts
-      return () => {
-        audioPlayer.pause();
-      };
-    }, []);
+    const audioPlayer = document.getElementById('audioPlayer');
+    let playAttempts = 0;
+    const maxPlayAttempts = 5;
+
+    const tryPlayAudio = () => {
+      audioPlayer.play().then(() => {
+        console.log('Audio playback started');
+        document.removeEventListener('mousemove', handleUserInteraction);
+      }).catch((error) => {
+        playAttempts += 1;
+        if (playAttempts < maxPlayAttempts) {
+          setTimeout(tryPlayAudio, 1000); 
+        } else {
+          console.error('Audio playback failed:', error);
+        }
+      });
+    };
+
+    const handleUserInteraction = () => {
+      tryPlayAudio();
+    };
+
+    document.addEventListener('mousemove', handleUserInteraction, { once: true });
+
+    return () => {
+      audioPlayer.pause();
+      document.removeEventListener('mousemove', handleUserInteraction);
+    };
+  }, []);
 
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-white">
-      <audio id="audioPlayer" autoPlay>
+      <audio id="audioPlayer" preload="auto">
         <source src={welcomeaudio} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>

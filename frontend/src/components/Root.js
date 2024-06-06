@@ -2,7 +2,6 @@ import image from '../assets/images/bg3.jpg';
 import { Col, Row } from 'react-bootstrap'; 
 
 const Root = () => {
-
   const backgroundStyle = {
     backgroundImage: `url(${image})`,
     backgroundSize: 'cover',
