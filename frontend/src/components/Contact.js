@@ -33,7 +33,7 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/submit-form', formData); 
+      await axios.post('https://the-future-power-backend.vercel.app/submit-form', formData); 
       alert('Form submitted successfully');
       setFormData({
         name: '',
