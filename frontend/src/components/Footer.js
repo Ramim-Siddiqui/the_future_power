@@ -3,10 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../css/Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="text-center text-lg-start" style={footerStyle}>
+    <footer className="footer text-center text-lg-start">
       <div className="container p-4">
         <div className="row">
           <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -43,10 +44,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-const footerStyle = {
-  backgroundColor: '#002244', 
-  color: 'white', 
-  fontSize: '2.5vh',
-  fontFamily: 'Poppins',
-};
