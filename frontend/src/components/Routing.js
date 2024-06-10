@@ -12,6 +12,7 @@ import Residential from './Residential';
 import Solarpanels from './Solarpanels';
 import Header from './Header';
 import Footer from './Footer';
+import Products from './Products';
 
 const Routing = () => {
   return (
@@ -26,6 +27,7 @@ const Routing = () => {
         <Route path='/commercial' element={<Commercial />} />
         <Route path='/industrial' element={<Industrial />} />
         <Route path='/netmetering' element={<Netmetering />} />
+        <Route path='/products' element={<Products />} />
         <Route path='/faqs' element={<FAQS />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>

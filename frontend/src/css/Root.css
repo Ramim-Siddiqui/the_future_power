@@ -18,7 +18,7 @@
   .welcome-text {
     font-size: 10vh;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
     position: relative;
     transition: opacity 0.5s ease;
   }
