@@ -41,14 +41,20 @@ const Home = () => {
                     </Row>
                 </div>
             </Container>
-
-            <Container fluid className="bg-white vh-100 w-100 d-flex flex-column justify-content-center align-items-center">
+            <Container fluid className="home-container d-flex w-100 vh-80 bg-white d-flex flex-column justify-content-center align-items-center">
                 <Row className="mb-4" data-aos="fade-up">
-                    <Col className="text-center">
+                    <Col sm={12} md={12}className="text-center">
                         <h1 className="about-heading">About Us</h1>
                     </Col>
+                    <Col sm={12} md={12}>
+                        <p className="mission-text">The Future Power was founded in 2019 with a vision to empower homeowners with clean, reliable solar energy. We are passionate about reducing our reliance on fossil fuels and creating a brighter future for generations to come.</p>
+                        <p className="mission-text">Our team of certified solar professionals has extensive experience in designing and installing high-quality solar panel systems. We prioritize customer satisfaction by offering personalized consultations, top-notch installation services, and comprehensive warranties.</p>
+                        <p className="mission-text">At The Future Power, we believe that everyone deserves access to clean energy. We're committed to providing affordable solar solutions and staying at the forefront of sustainable practices.</p>
+                    </Col>
                 </Row>
-                <Row className="w-100">
+            </Container>
+            <Container fluid className="bg-white vh-80 w-100 d-flex flex-column justify-content-center">
+                <Row>
                     <Col sm={12} md={6} className="d-flex justify-content-center align-items-center" data-aos="fade-right">
                         <Image src={image1} fluid alt="About Us Image" />
                     </Col>
@@ -60,8 +66,7 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
-
-            <Container fluid className="bg-white vh-100 w-100 d-flex justify-content-center">
+            <Container fluid className="bg-white vh-100 w-100 d-flex flex-column justify-content-center">
                 <Row className="mb-4 text-center" data-aos="fade-up">
                     <Col>
                         <h1 className="mission-heading">Our Mission & Vision</h1>
@@ -70,7 +75,7 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
-            <Container fluid className="bg-white home-container w-100 vh-80 justify-content-left">
+            <Container fluid className="bg-white home-container d-flex flex-column w-100 vh-80 justify-content-left">
               <Row className="w-100">
                 <Col sm={12} md={6} className="d-flex justify-content-center align-items-center mt-5" data-aos="fade-right">
                   <Image src="https://imageio.forbes.com/specials-images/imageserve/65446135295059f5785712fe/Solar-and-wind-power/960x0.jpg?height=474&width=711&fit=bounds" fluid alt="Our Values Image" className="large-image" /> {/* Added className */}
@@ -82,6 +87,18 @@ const Home = () => {
                   </div>
                 </Col>
               </Row>
+            </Container>
+            <Container fluid className="bg-white home-container d-flex w-100 vh-80 justify-content-center">
+                <Row className="mb-4 text-center" data-aos="fade-up">
+                    <Col>
+                        <h1 className="mission-subheading">Our Difference from Other Solar Power Companies</h1>
+                        <p className="mission-text">At The Future Power, we believe everyone deserves access to clean energy. That's why we go beyond just serving homeowners. We're passionate about:</p>
+                        <h1 className="mission-heading">Empowering Communities</h1>
+                        <p className="mission-text">We partner with businesses, schools, and organizations to bring solar power to a wider range of people, fostering a cleaner future for our communities.</p>
+                        <h1 className="mission-heading">Making Solar Affordable</h1>
+                        <p className="mission-text">We offer competitive pricing models and flexible financing options to make switching to solar a reality for any budget.</p>
+                    </Col>
+                </Row>
             </Container>
         </div>
     );
