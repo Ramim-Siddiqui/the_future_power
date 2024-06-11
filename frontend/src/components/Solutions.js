@@ -109,7 +109,17 @@ const Solutions = () => {
                     </Col>
               </Row>
               </div>
-              
+            </Container>
+            <Container fluid className="bg-dark vh-50 w-100 d-flex flex-column justify-content-center">
+              <Row>
+              <Col sm={12} md={6} lg={6} className="d-flex flex-column justify-content-center align-items-center text-left" data-aos="fade-right">
+                  <p className='why-content'>Solar Plans that Fit Your Needs</p>
+                </Col>
+                <Col sm={12} md={6} lg={6} className="d-flex flex-column justify-content-center align-items-center text-left" data-aos="fade-left">
+                  <p className='why-text'>Looking forward to power your future with solar energy? Call us and we'll help you find the right pricing plan that meets your needs.</p>
+                  <button className='button'>+92 (336 3037828 or 312 2567852)</button>
+                </Col>
+              </Row>
             </Container>
     </div>
   )

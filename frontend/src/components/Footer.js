@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import { faClock, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Footer.css';
 
@@ -16,6 +16,10 @@ const Footer = () => {
               <li className="mb-2">
                 <FontAwesomeIcon icon={faClock} className="me-2" />
                 Mon - Sat : 10.00 AM - 07.00 PM
+              </li>
+              <li className="mb-2">
+                <FontAwesomeIcon icon={faPhone} className='me-2' />
+                +92 (336 3037828 or 312 2567852)
               </li>
               <li>
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
