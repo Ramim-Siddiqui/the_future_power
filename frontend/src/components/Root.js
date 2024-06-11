@@ -1,21 +1,15 @@
 import React from 'react';
-import image from '../assets/images/bg3.jpg';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import '../css/Root.css';
-
+import video from '../assets/video/vid3.mp4'
 const Root = () => {
-  const backgroundStyle = {
-    backgroundImage: `url(${image})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
-    width: '100%',
-    height: '100vh',
-    position: 'relative',
-  };
-
   return (
-    <div className="d-flex w-100 vh-100 justify-content-center align-items-center root-container" style={backgroundStyle}>
+    <div style={{overflow:"hidden"}}>
+      <Container fluid className="root-container d-flex w-100 vh-100 justify-content-center align-items-center">
+      <video autoPlay loop muted className="video-background">
+                    <source src={video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
       <Row>
         <Col xs={12} sm={12} md={12}>
           <p className="welcome-text">
@@ -30,6 +24,7 @@ const Root = () => {
           </p>
         </Col>
       </Row>
+      </Container>
     </div>
   );
 };

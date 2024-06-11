@@ -21,6 +21,7 @@
     font-family: 'Poppins';
     position: relative;
     transition: opacity 0.5s ease;
+    color: white;
   }
   
   .welcome-text span {
@@ -56,6 +57,7 @@
     opacity: 0;
     animation: fadeInFromBottom 1s ease forwards;
     animation-delay: 3s;
+    color: white;
   }
   
   @keyframes fadeInFromBottom {
