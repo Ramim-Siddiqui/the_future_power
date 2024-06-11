@@ -13,6 +13,7 @@ import Solarpanels from './Solarpanels';
 import Header from './Header';
 import Footer from './Footer';
 import Products from './Products';
+import Solutions from './Solutions';
 
 const Routing = () => {
   return (
@@ -30,6 +31,7 @@ const Routing = () => {
         <Route path='/products' element={<Products />} />
         <Route path='/faqs' element={<FAQS />} />
         <Route path='/contact' element={<Contact />} />
+        <Route path='/solutions' element={<Solutions />} />
       </Routes>
       <Footer />
     </BrowserRouter>

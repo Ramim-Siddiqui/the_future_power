@@ -47,7 +47,7 @@ const Home = () => {
                         <h1 className="about-heading">About Us</h1>
                     </Col>
                     <Col sm={12} md={12}>
-                        <p className="mission-text">The Future Power was founded in 2019 with a vision to empower homeowners with clean, reliable solar energy. We are passionate about reducing our reliance on fossil fuels and creating a brighter future for generations to come.</p>
+                        <p className="mission-text">The Future Power was founded in 2019 with a vision to empower everyone with clean, reliable solar energy. We are passionate about reducing our reliance on fossil fuels and creating a brighter future for generations to come.</p>
                         <p className="mission-text">Our team of certified solar professionals has extensive experience in designing and installing high-quality solar panel systems. We prioritize customer satisfaction by offering personalized consultations, top-notch installation services, and comprehensive warranties.</p>
                         <p className="mission-text">At The Future Power, we believe that everyone deserves access to clean energy. We're committed to providing affordable solar solutions and staying at the forefront of sustainable practices.</p>
                     </Col>
