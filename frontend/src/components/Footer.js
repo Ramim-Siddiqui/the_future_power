@@ -37,7 +37,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/ramimali2003?igsh=MW16NGd6ZHkwcjJvcQ==" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
-            <a href="https://www.linkedin.com/in/ramim-siddiqui-910404235" target="_blank" rel="noopener noreferrer" className="text-reset">
+            <a href="https://www.linkedin.com/company/future-power-smc-private-limited/" target="_blank" rel="noopener noreferrer" className="text-reset">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
           </div>
