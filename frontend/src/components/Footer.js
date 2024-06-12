@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faClock, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faClock, faLandmark, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Footer.css';
 
@@ -19,11 +19,13 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <FontAwesomeIcon icon={faPhone} className='me-2' />
-                +92 (336 3037828 or 308 3711786)
+                +92 (336 3037828 or 308 3711786) OR 021 37458127
               </li>
               <li>
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-                Mezanine # 1, 15th Comm Lane, Plot, 4-C Phase II Ext.Rd, Karachi, 75500
+                <a href="https://maps.app.goo.gl/6VSwFLiKpytBhxyn8" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
+                Suite # 01, Mezzanine floor, Building 4-C, 15th commercial street, D.H.A phase II ext, Karachi, Pakistan.
+            </a>
               </li>
             </ul>
           </div>
@@ -31,7 +33,7 @@ const Footer = () => {
             <p className="m-0">&copy; 2024 Future Power. All Rights Reserved.</p>
           </div>
           <div className="col-lg-4 col-md-12 d-flex justify-content-lg-end justify-content-md-center justify-content-center align-items-center">
-            <a href="https://www.facebook.com/RamimAli2003" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
+            <a href="https://www.facebook.com/profile.php?id=100084846305900&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
             <a href="https://www.instagram.com/ramimali2003?igsh=MW16NGd6ZHkwcjJvcQ==" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
