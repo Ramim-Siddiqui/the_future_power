@@ -30,7 +30,7 @@ const Home = () => {
                 <div className="content" data-aos="fade-up">
                     <Row>
                         <Col sm={12} md={8} lg={8}>
-                            <p>The Future Power</p>
+                            <p>Future Power</p>
                         </Col>
                         <Col sm={12} md={8} lg={8} style={{ fontSize: '8vh' }}>
                             <p>Leading the way to a brighter solar future.</p>
@@ -47,9 +47,9 @@ const Home = () => {
                         <h1 className="about-heading">About Us</h1>
                     </Col>
                     <Col sm={12} md={12}>
-                        <p className="mission-text">The Future Power was founded in 2019 with a vision to empower everyone with clean, reliable solar energy. We are passionate about reducing our reliance on fossil fuels and creating a brighter future for generations to come.</p>
+                        <p className="mission-text">Future Power was founded in 2019 with a vision to empower everyone with clean, reliable solar energy. We are passionate about reducing our reliance on fossil fuels and creating a brighter future for generations to come.</p>
                         <p className="mission-text">Our team of certified solar professionals has extensive experience in designing and installing high-quality solar panel systems. We prioritize customer satisfaction by offering personalized consultations, top-notch installation services, and comprehensive warranties.</p>
-                        <p className="mission-text">At The Future Power, we believe that everyone deserves access to clean energy. We're committed to providing affordable solar solutions and staying at the forefront of sustainable practices.</p>
+                        <p className="mission-text">At Future Power, we believe that everyone deserves access to clean energy. We're committed to providing affordable solar solutions and staying at the forefront of sustainable practices.</p>
                     </Col>
                 </Row>
             </Container>
@@ -71,7 +71,7 @@ const Home = () => {
                     <Col>
                         <h1 className="mission-heading">Our Mission & Vision</h1>
                         <h1 className="mission-subheading">We're on a Mission to Revolutionize Energy with Simple, Powerful Solar Solutions</h1>
-                        <p className="mission-text">At The Future Power, we're on a mission to revolutionize energy with simple, powerful solar solutions. We believe clean, reliable energy is a right, not a privilege, and we're passionate about making solar accessible for everyone.</p>
+                        <p className="mission-text">At Future Power, we're on a mission to revolutionize energy with simple, powerful solar solutions. We believe clean, reliable energy is a right, not a privilege, and we're passionate about making solar accessible for everyone.</p>
                     </Col>
                 </Row>
             </Container>
@@ -83,7 +83,7 @@ const Home = () => {
                 <Col sm={12} md={6} className="d-flex flex-column justify-content-center align-items-center text-center" data-aos="fade-left">
                   <div className="motto-container">
                     <p className="motto-text">Our Values</p>
-                    <p className="value-subtext">At The Future Power, our core values guide everything we do. We are passionate about sustainability, driving the transition towards clean energy for a healthier planet. We believe in accessibility, making solar power a reality for homeowners, businesses, and communities alike.  Innovation is in our DNA, and we constantly strive to offer the most powerful and efficient solar solutions.  Customer focus is paramount, and we prioritize clear communication, exceptional service, and a smooth solar experience.  Finally, we believe in the power of community, partnering with organizations to expand solar's reach and build a brighter future together.</p>
+                    <p className="value-subtext">At Future Power, our core values guide everything we do. We are passionate about sustainability, driving the transition towards clean energy for a healthier planet. We believe in accessibility, making solar power a reality for homeowners, businesses, and communities alike.  Innovation is in our DNA, and we constantly strive to offer the most powerful and efficient solar solutions.  Customer focus is paramount, and we prioritize clear communication, exceptional service, and a smooth solar experience.  Finally, we believe in the power of community, partnering with organizations to expand solar's reach and build a brighter future together.</p>
                   </div>
                 </Col>
               </Row>
@@ -92,7 +92,7 @@ const Home = () => {
                 <Row className="mb-4 text-center" data-aos="fade-up">
                     <Col>
                         <h1 className="mission-subheading">Our Difference from Other Solar Power Companies</h1>
-                        <p className="mission-text">At The Future Power, we believe everyone deserves access to clean energy. That's why we go beyond just serving homeowners. We're passionate about:</p>
+                        <p className="mission-text">At Future Power, we believe everyone deserves access to clean energy. That's why we go beyond just serving homeowners. We're passionate about:</p>
                         <h1 className="mission-heading">Empowering Communities</h1>
                         <p className="mission-text">We partner with businesses, schools, and organizations to bring solar power to a wider range of people, fostering a cleaner future for our communities.</p>
                         <h1 className="mission-heading">Making Solar Affordable</h1>

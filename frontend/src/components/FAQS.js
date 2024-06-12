@@ -10,7 +10,7 @@ const FAQS = () => {
       <Container>
         <Row className="my-5">
           <Col>
-            <h1 className="text-center motto-text">The Future Power: Solar Energy FAQs</h1>
+            <h1 className="text-center motto-text">Future Power: Solar Energy FAQs</h1>
             <p className="text-center motto-subtext">Find answers to common questions about solar energy, our services, and how we can help you harness the power of the sun.</p>
           </Col>
         </Row>
@@ -28,13 +28,13 @@ const FAQS = () => {
               <Accordion.Item eventKey="1">
                 <Accordion.Header>Is solar power right for me?</Accordion.Header>
                 <Accordion.Body>
-                  Solar power can be a great option for many people, but there are some factors to consider. These include your roof size and suitability, your average energy usage, and your budget. The Future Power offers free consultations to help you determine if solar is right for you.
+                  Solar power can be a great option for many people, but there are some factors to consider. These include your roof size and suitability, your average energy usage, and your budget. Future Power offers free consultations to help you determine if solar is right for you.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
                 <Accordion.Header>How much does solar power cost?</Accordion.Header>
                 <Accordion.Body>
-                The cost of a solar power system depends on several factors, such as the size of the system you need, the type of equipment used, and your location. However, The Future Power offers competitive pricing models and flexible financing options to make solar power affordable for everyone.
+                The cost of a solar power system depends on several factors, such as the size of the system you need, the type of equipment used, and your location. However, Future Power offers competitive pricing models and flexible financing options to make solar power affordable for everyone.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
@@ -46,7 +46,7 @@ const FAQS = () => {
               <Accordion.Item eventKey="4">
                 <Accordion.Header>What is the lifespan of a solar panel system?</Accordion.Header>
                 <Accordion.Body>
-                High-quality solar panels typically have a lifespan of 25 years or more, with minimal maintenance required. The Future Power uses only the most reliable and durable solar panels on the market.
+                High-quality solar panels typically have a lifespan of 25 years or more, with minimal maintenance required. Future Power uses only the most reliable and durable solar panels on the market.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="5">
@@ -90,7 +90,7 @@ const FAQS = () => {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>Will solar panels damage my roof?</Accordion.Header>
                 <Accordion.Body>
-                  Solar panels are installed using a secure mounting system that is designed to prevent damage to your roof. The Future Power only uses certified installers who follow strict safety protocols.
+                  Solar panels are installed using a secure mounting system that is designed to prevent damage to your roof. Future Power only uses certified installers who follow strict safety protocols.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -116,7 +116,7 @@ const FAQS = () => {
               <Accordion.Item eventKey="0">
                 <Accordion.Header>What are the tax benefits of solar power for businesses?</Accordion.Header>
                 <Accordion.Body>
-                  There are several federal and state tax incentives available for businesses that install solar power systems. The Future Power can help you navigate the available tax credits and deductions.
+                  There are several federal and state tax incentives available for businesses that install solar power systems. Future Power can help you navigate the available tax credits and deductions.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="1">
@@ -128,7 +128,7 @@ const FAQS = () => {
               <Accordion.Item eventKey="2">
                 <Accordion.Header>Can solar power meet all of my business's energy needs?</Accordion.Header>
                 <Accordion.Body>
-                The size of your solar system can be customized to meet a significant portion of your business's energy needs.  The Future Power will conduct a thorough energy audit to determine the optimal system size for your business.
+                The size of your solar system can be customized to meet a significant portion of your business's energy needs.  Future Power will conduct a thorough energy audit to determine the optimal system size for your business.
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
@@ -152,15 +152,15 @@ const FAQS = () => {
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="2">
-                <Accordion.Header>How can The Future Power help my community go solar?</Accordion.Header>
+                <Accordion.Header>How can Future Power help my community go solar?</Accordion.Header>
                 <Accordion.Body>
-                The Future Power partners with communities to develop and implement solar power solutions. We can work with local governments, businesses, and residents to bring the benefits of solar energy to everyone.
+                Future Power partners with communities to develop and implement solar power solutions. We can work with local governments, businesses, and residents to bring the benefits of solar energy to everyone.
                 </Accordion.Body>
               </Accordion.Item>
               <Accordion.Item eventKey="3">
                 <Accordion.Header>How can I learn more about solar power for my community?</Accordion.Header>
                 <Accordion.Body>
-                Contact The Future Power today
+                Contact Future Power today
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>

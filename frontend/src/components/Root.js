@@ -15,12 +15,11 @@ const Root = () => {
           <p className="welcome-text">
             <span>Welcome</span>{' '}
             <span>To</span>{' '}
-            <span>The</span>{' '}
             <span>Future</span>{' '}
             <span>Power!</span>
           </p>
           <p className="second-paragraph">
-            Power your life with clean, renewable energy at The Future Power.
+            Power your life with clean, renewable energy at Future Power.
           </p>
         </Col>
       </Row>
