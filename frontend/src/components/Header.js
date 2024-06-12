@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import welcomeaudio from '../assets/audio/welcome.wav';
 import '../css/Header.css';
+import image from '../assets/images/logo.png'
 
 const Header = () => {
   const [hoveredLink, setHoveredLink] = useState(null);
@@ -58,7 +59,7 @@ const Header = () => {
       <Container fluid>
         <Navbar.Brand>
           <Link to="/" onClick={handleNavLinkClick}>
-            <img src="https://www.tfp.com.pk/img/logo.svg" alt='Logo' className="logo" />
+            <img src={image} alt='Logo' className="logo" />
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

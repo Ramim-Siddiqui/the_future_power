@@ -19,16 +19,16 @@ const Footer = () => {
               </li>
               <li className="mb-2">
                 <FontAwesomeIcon icon={faPhone} className='me-2' />
-                +92 (336 3037828 or 312 2567852)
+                +92 (336 3037828 or 308 3711786)
               </li>
               <li>
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-                A-6, Block 13-B, Gulshan-e-Iqbal, Karachi, Sindh, Pakistan
+                Mezanine # 1, 15th Comm Lane, Plot, 4-C Phase II Ext.Rd, Karachi, 75500
               </li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-6 mb-4 mb-lg-0 d-flex align-items-center justify-content-center">
-            <p className="m-0">&copy; 2024 The Future Power. All Rights Reserved.</p>
+            <p className="m-0">&copy; 2024 Future Power. All Rights Reserved.</p>
           </div>
           <div className="col-lg-4 col-md-12 d-flex justify-content-lg-end justify-content-md-center justify-content-center align-items-center">
             <a href="https://www.facebook.com/RamimAli2003" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
