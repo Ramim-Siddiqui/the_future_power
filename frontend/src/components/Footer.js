@@ -36,9 +36,6 @@ const Footer = () => {
             <a href="https://www.facebook.com/profile.php?id=100084846305900&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
               <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
-            <a href="https://www.instagram.com/ramimali2003?igsh=MW16NGd6ZHkwcjJvcQ==" target="_blank" rel="noopener noreferrer" className="me-4 text-reset">
-              <FontAwesomeIcon icon={faInstagram} size="2x" />
-            </a>
             <a href="https://www.linkedin.com/company/future-power-smc-private-limited/" target="_blank" rel="noopener noreferrer" className="text-reset">
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>

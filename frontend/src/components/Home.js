@@ -44,7 +44,7 @@ const Home = () => {
             <Container fluid className="home-container d-flex w-100 vh-80 bg-white d-flex flex-column justify-content-center align-items-center">
                 <Row className="mb-4" data-aos="fade-up">
                     <Col sm={12} md={12}className="text-center">
-                        <h1 className="about-heading">About Us</h1>
+                        <h1 className="about">About Us</h1>
                     </Col>
                     <Col sm={12} md={12}>
                         <p className="mission-text">Future Power was founded in 2019 with a vision to empower everyone with clean, reliable solar energy. We are passionate about reducing our reliance on fossil fuels and creating a brighter future for generations to come.</p>
