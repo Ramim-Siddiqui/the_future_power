@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faClock, faLandmark, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faClock, faMapMarkerAlt, faPhone } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/Footer.css';
 
