@@ -35,7 +35,7 @@ const Products = () => {
                 <div className="content" data-aos="fade-up">
                     <Row>
                         <Col sm={12} md={8} lg={8} style={{ fontSize: '8vh' }}>
-                            <p>Explore our wide range of solar products and build the perfect system for your needs..</p>
+                            <p>Explore our wide range of solar products and build the perfect system for your needs.</p>
                         </Col>
                         <Col sm={12} md={8} lg={8}>
                             <button onClick={navigateToContact} className='contact-button'>Contact Us</button>
