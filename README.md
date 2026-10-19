@@ -123,3 +123,7 @@ All routes are defined in `backend/index.js`. CORS is enabled for all origins an
 - **Leftover Create React App defaults.** `public/index.html` and `public/manifest.json` still reference `favicon.ico`, `logo192.png` and `logo512.png`, which do not exist in `public/`; the manifest name is "Create React App Sample" and the meta description is the CRA default.
 - **Audio details.** The welcome clip is a `.wav` file declared with `type="audio/mpeg"` in `Header.js`, and it auto-plays on the first mouse movement, which some users may find intrusive.
 - **No monorepo tooling.** Backend and frontend are independent npm projects with no shared scripts, linting config beyond CRA's defaults, or CI.
+
+## License
+
+Copyright (c) 2024 Ramim Ali Siddiqui. All rights reserved. The code is published for viewing only; using, copying or modifying it requires written permission. See [LICENSE](LICENSE).
