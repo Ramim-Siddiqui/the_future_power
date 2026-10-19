@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment files (the example template is kept)
+.env
+.env.*
+!.env.example
+
+# Build output
+build/
+dist/
+
+# Logs
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
